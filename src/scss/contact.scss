@@ -1,0 +1,58 @@
+/*------------------------------ CONTACT ------------------------------*/ 
+.contact .big-title__main{
+  color: #ebeced;
+}
+
+.contact{
+  padding-top: 80px;
+  padding-bottom: 150px;
+}
+
+.contact__info{
+  margin-top: 100px;
+}
+
+.contact__info-text{
+  color: #2c4755;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.contact__info-email{
+  color: #10cab7;
+  font-weight: 800;
+  font-size: 45px;
+  a{
+    margin-left: 40px;
+    position: relative;
+    &::before{
+      content: '';
+      width: calc(100% + 40px);
+      height: 35px;
+      position: absolute;
+      background-color: #fff;
+      z-index: -9;
+      left: -40px;
+      bottom: -6px;
+    }
+  }
+}
+
+.social{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+// .social__text{
+
+// }
+
+.social__logos{
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  li{
+    margin-left: 25px;
+  }
+}

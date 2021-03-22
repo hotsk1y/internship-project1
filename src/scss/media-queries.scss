@@ -1,0 +1,281 @@
+/*------------------------------ MEDIA ------------------------------*/
+@media (max-width: 1199px) {
+  .container{
+    max-width: 980px;
+  }
+  .services__content{
+    align-items: center;
+  }
+  .services__content-img{
+    width: 50%;
+    &::before{
+      right: 70px;
+    }
+  }
+  .green-vertical-line{
+    right: -10px;
+  }
+  .green-horizontal-line{
+    right: -40px;
+  }
+  .project-item__img{
+    max-height: 370px;
+  }
+  .about__img{
+    left: 30px;
+  }
+  .about__text{
+    max-width: 530px;
+  }
+}
+
+
+@media (max-width: 991.98px) {
+  .container{
+    max-width: 750px;
+  }
+  .services__content{
+    margin-top: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .services__content-items{
+    justify-content: center;
+  }
+  .services__item{
+    height: auto;
+  }
+  .services__item-title{
+    margin-bottom: 10px;
+  }
+  .services__content-img{
+    display: flex;
+    justify-content: center;
+    top: 65px;
+    & img{
+      max-height: 65%;
+    }
+    &::before {
+      height: 300px;
+      width: 70px;
+      top: -45px;
+    }
+  }
+  .big-title__descr{
+    font-size: 21px;
+  }
+
+  .project-item__img{
+    max-height: 255px;
+  }
+
+  .about__content{
+    flex-wrap: wrap;    
+  }
+  .about__img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about__img-wrapper{
+    height: 280px;
+    img{
+      height: 100%;
+    }
+  }
+  .gray-line{
+    top: 45px;
+    left: 200px;
+    height: 350px;
+  }
+  .green-vertical-line{
+    top: 10px;
+    right: 215px;
+  }
+  .green-horizontal-line{
+    bottom: 140px;
+    right: 150px;
+  }
+  .about__text{
+    padding: 15px;
+    margin-left: 0;
+    margin: 0 auto;
+  }  
+}
+
+
+@media (max-width: 810px) {
+  .container{
+    max-width: none;
+  }
+
+  .work{
+    flex-direction: column;
+  }
+
+  .services__content-img::before{
+    right: 50px;
+  }
+
+  .about__img{
+    display: none;
+  }
+
+  .portfolio__projects{
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-item{
+    max-width: 450px;
+    margin-bottom: 20px;
+  }
+  .project-item__img{
+    max-height: 240px;
+    img{
+      height: 100%;
+    }
+  }
+
+  .big-title__main{
+    font-size: 130px;
+  }
+  .big-title__descr{
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .contact__info-text{
+    font-size: 40px;
+  }
+  .contact__info-email{
+    font-size: 35px;
+  }
+
+  .sub-menu{
+    width: 60%;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .services__content-img{
+    display: none;
+  }
+  .contact{
+    padding-bottom: 50px;
+  }
+}
+
+
+@media (max-width: 550px) {
+  .big-title__main{
+    font-size: 100px;
+  }
+  .big-title__descr{
+    font-size: 15px;
+    bottom: 20px;
+  }
+
+  .services__content-items{
+    width: 100%;
+  }
+
+  .about__text-title{
+    line-height: 30px;
+    font-size: 15px;
+  }
+  .about__text-descr{
+    line-height: 25px;
+    font-size: 14px;
+  }
+
+  .contact__info-text{
+    font-size: 25px;
+  }
+  .contact__info-email{
+    font-size: 25px;
+    a::before{
+      display: none;
+    }
+  }
+
+  .sub-menu{
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .header__content h1 {
+    font-size: 45px;
+  }
+  .header__content-descr{
+    font-size: 14px;
+  }
+
+  .work__item{
+    padding: 30px 20px;
+  }
+  .work__item-descr{
+    font-size: 14px;
+  }
+
+  .services{
+    padding-bottom: 20px;
+  }
+  .services__item-descr{
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .portfolio__projects{
+    padding: 10px;
+  }
+  .project-item{
+    max-width: 100%;
+  }
+  .project-item__descr{
+    font-size: 14px;
+  }
+
+  .contact{
+    padding-top: 15px;
+  }
+
+  .about{
+    padding: 20px 0;
+  }
+
+  .contact__info {
+    margin-top: 45px;
+  }
+  .contact__info-text {
+    font-size: 20px;
+  }
+  .contact__info-email{
+    font-size: 20px;
+  }
+
+  .social{
+    flex-direction: column;    
+  }
+  .social__logos{
+    margin-left: 0;
+    margin-top: 20px;
+    width: 80%;
+    justify-content: space-around;
+    li{
+      margin-left: 0;
+    }
+  }
+
+  .big-title__main{
+    font-size: 75px;
+  }
+  .big-title__descr{
+    font-size: 13px;
+    bottom: 15px;
+  }
+}

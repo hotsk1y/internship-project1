@@ -1,0 +1,26 @@
+/*------------------------------ HEADER ------------------------------*/
+// .header{
+  
+// }
+
+.navbar{
+  background-color: #fff;
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+  }
+}
+
+.header__content{
+  text-align: center;
+  height: 450px;
+  h1{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    color: #10cab7;
+    font-size: 55px;
+    font-weight: 800;
+  }
+}

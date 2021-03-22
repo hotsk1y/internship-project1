@@ -1,0 +1,39 @@
+/*------------------------------ WORK ------------------------------*/
+.work{
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item{
+    flex-basis: 33.3%;
+    min-width: 200px;
+    padding: 50px 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: box-shadow .3s ease;
+    &:hover{
+      box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    }
+  }
+
+  &__item-logo{
+    height: 70px;
+    img{
+      height: 100%;
+    }
+  }
+
+  &__item-title{
+    font-size: 20px;
+    font-weight: 800;
+    color: #2c4755;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  &__item-descr{
+    color: #575757;
+    font-size: 15px;
+    font-weight: 400;
+  }
+}

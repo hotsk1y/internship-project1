@@ -3,13 +3,13 @@ const closeMenuBtn = document.querySelector('.close-btn')
 const menu = document.querySelector('.sub-menu')
 
 function disableScrolling(){
-  let x=window.scrollX;
-  let y=window.scrollY;
-  window.onscroll=function(){window.scrollTo(x, y);};
+  let x = window.scrollX;
+  let y = window.scrollY;
+  window.onscroll = function(){window.scrollTo(x, y);};
 }
 
 function enableScrolling(){
-  window.onscroll=function(){};
+  window.onscroll = function(){};
 }
 
 
